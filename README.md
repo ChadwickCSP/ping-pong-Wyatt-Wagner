@@ -4,7 +4,18 @@ Collaborating with git and github (Ping Pong!)
 
 In this exercise you will use Git and GitHub to practice sharing changed content using the Git distributed version control system in your command line (terminal) and through the GUI (graphical user interface) GitHub.com.
 This exercise is designed to give you experience in working in teams on code, which is very common in development. This is a critial and very important concept that you will want to aim to master. Please be sure to reach out to your instructors with any questions or frustrations so we can assit you.
-As per usual, the instructions start very explicit and gradually get vauge so be on the lookout and trust your insticts.
+The instructions start very explicit and gradually get vauge so be on the lookout and trust your insticts.
+## Setup
+
+After cloning this repository you want to run these commands
+
+```
+cp git-commit-template.txt ~/.git-commit-template.txt
+git config --global commit.template ~/.git-commit-template.txt
+```
+
+This will set up you commit template to automatically bring up the file to remind you of the format you want.
+
 1. Activity: Both
 
 First: Find a partner and determine the role for each: “Ping” or “Pong.”
