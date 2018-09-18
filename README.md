@@ -6,15 +6,16 @@ In this exercise you will use Git and GitHub to practice sharing changed content
 This exercise is designed to give you experience in working in teams on code, which is very common in development. This is a critial and very important concept that you will want to aim to master. Please be sure to reach out to your instructors with any questions or frustrations so we can assit you.
 The instructions start very explicit and gradually get vauge so be on the lookout and trust your insticts.
 ## Setup
+Each person needs to clone this repository onto their local machine.
 
-After cloning this repository you want to run these commands
+After cloning this repository you want to cd into the repository and run these commands
 
 ```
 cp git-commit-template.txt ~/.git-commit-template.txt
 git config --global commit.template ~/.git-commit-template.txt
 ```
 
-This will set up you commit template to automatically bring up the file to remind you of the format you want.
+This will set up a commit template to automatically bring up the file to remind you of the format I want.
 
 1. Activity: Both
 
@@ -39,14 +40,13 @@ Pong: Clone the shared repo, add a file, and push new file to GitHub.
 Obtain the clone URL. This can happen a few ways: email, slack, GitHub repo listing, etc…
 In Command Line/Terminal:
 * Clone the repo
-* Move into the repo folder
+* Move into (`cd`) the repo folder
 * Review the branch you are currently on (should be on master)
 git branch -va or git status
 * Create a new branch from which you can work. Use a branch name with your name or initials in it.
 `git checkout -b [new branch name]` or `git branch [new branch name]`
 * Move to that new branch. (What’s the command for this?)
-Using Document Browser/Finder:
-* Use Atom (or other editor) to open the repository folder
+* Use Atom (or other editor) to open the repository folder (if you're using atom running `atom .` in Terminal will open the current directory (i.e. your repository) in atom)
 * Create a new file
 * Save as ‘index.html’
 * create a basic html file that looks like this
